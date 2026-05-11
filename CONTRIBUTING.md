@@ -25,8 +25,8 @@ Found a great paper, article, or tutorial relevant to one of the modules? Open a
 ## Development Setup
 
 ```bash
-git clone https://github.com/neuralnomad26/agentic-ai-mastery.git
-cd agentic-ai-mastery
+git clone https://github.com/neuralnomad26/neural-nomad-ai-lab.git
+cd neural-nomad-ai-lab
 python -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt

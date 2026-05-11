@@ -7,8 +7,8 @@
 [![Python](https://img.shields.io/badge/Python-3.11%2B-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
 [![Jupyter](https://img.shields.io/badge/Jupyter-Notebooks-F37626?style=for-the-badge&logo=jupyter&logoColor=white)](https://jupyter.org)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
-[![CI](https://img.shields.io/github/actions/workflow/status/neuralnomad26/agentic-ai-mastery/ci.yml?style=for-the-badge&label=CI)](../../actions)
-[![Last Commit](https://img.shields.io/github/last-commit/neuralnomad26/agentic-ai-mastery?style=for-the-badge)](../../commits/main)
+[![CI](https://img.shields.io/github/actions/workflow/status/neuralnomad26/neural-nomad-ai-lab/ci.yml?style=for-the-badge&label=CI)](../../actions)
+[![Last Commit](https://img.shields.io/github/last-commit/neuralnomad26/neural-nomad-ai-lab?style=for-the-badge)](../../commits/main)
 [![Modules](https://img.shields.io/badge/Modules-7-blueviolet?style=for-the-badge)](#-learning-roadmap)
 
 <br/>
@@ -64,8 +64,8 @@ Every notebook is written with clarity and production discipline: clean code, me
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/neuralnomad26/agentic-ai-mastery.git
-cd agentic-ai-mastery
+git clone https://github.com/neuralnomad26/neural-nomad-ai-lab.git
+cd neural-nomad-ai-lab
 
 # 2. Create and activate a virtual environment
 python -m venv .venv
@@ -91,7 +91,7 @@ make jupyter # launches Jupyter Lab
 ## 📁 Repository Structure
 
 ```
-agentic-ai-mastery/
+neural-nomad-ai-lab/
 │
 ├── modules/                         # Core learning modules (ordered)
 │   ├── 01-numpy-pandas/
