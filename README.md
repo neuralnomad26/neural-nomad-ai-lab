@@ -231,7 +231,7 @@ This project is licensed under the MIT License — see [LICENSE](LICENSE) for de
 
 ## 👤 Author
 
-**Neeraja Ithak**
+**Neeraj**
 
 > *"The best way to learn AI is to build it — one commit at a time."*
 
