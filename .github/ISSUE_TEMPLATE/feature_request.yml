@@ -1,0 +1,42 @@
+name: Suggestion / Improvement
+description: Suggest a better explanation, new exercise, or useful resource
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Suggestions to improve content quality or add new learning material are welcome!
+
+  - type: dropdown
+    id: type
+    attributes:
+      label: Type of suggestion
+      options:
+        - Better explanation of a concept
+        - New exercise or problem
+        - New resource (paper, article, video)
+        - Code quality improvement
+        - New module or topic
+        - Other
+    validations:
+      required: true
+
+  - type: input
+    id: location
+    attributes:
+      label: Module / File (if applicable)
+      placeholder: modules/01-numpy-pandas/...
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Describe your suggestion
+      description: What would you improve and why?
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternative
+    attributes:
+      label: Alternatives considered
+      description: Have you considered other approaches?
