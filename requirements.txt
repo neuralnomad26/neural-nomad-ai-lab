@@ -72,5 +72,5 @@ ipykernel>=6.29
 ruff>=0.4
 pre-commit>=3.7
 pytest>=8.2
-pytest-cov>=5.0
+pytest-cov>=7.1.0
 python-dotenv>=1.0
