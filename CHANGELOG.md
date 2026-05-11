@@ -29,5 +29,5 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) and 
 - Dependabot configuration
 - Module skeleton for all 7 learning modules
 
-[Unreleased]: https://github.com/neuralnomad26/agentic-ai-mastery/compare/v0.1.0...HEAD
-[0.1.0]: https://github.com/neuralnomad26/agentic-ai-mastery/releases/tag/v0.1.0
+[Unreleased]: https://github.com/neuralnomad26/neural-nomad-ai-lab/compare/v0.1.0...HEAD
+[0.1.0]: https://github.com/neuralnomad26/neural-nomad-ai-lab/releases/tag/v0.1.0
