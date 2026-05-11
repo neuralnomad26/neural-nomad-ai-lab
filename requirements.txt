@@ -44,7 +44,7 @@ anthropic>=0.28
 # Agentic AI Frameworks
 # =============================================================================
 langchain>=0.2
-langchain-community>=0.2
+langchain-community>=0.4.1
 langchain-openai>=0.1
 langchain-anthropic>=0.1
 langgraph>=0.1
