@@ -70,7 +70,7 @@ ipykernel>=6.29
 # Dev Tooling
 # =============================================================================
 ruff>=0.4
-pre-commit>=3.7
+pre-commit>=4.6.0
 pytest>=8.2
 pytest-cov>=5.0
 python-dotenv>=1.0
