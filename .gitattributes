@@ -1,0 +1,36 @@
+# Auto-detect text files and normalise line endings
+* text=auto
+
+# Python
+*.py text eol=lf
+*.pyi text eol=lf
+*.pyx text eol=lf
+
+# Jupyter notebooks
+*.ipynb text eol=lf
+
+# Web
+*.js text eol=lf
+*.ts text eol=lf
+*.json text eol=lf
+*.yaml text eol=lf
+*.yml text eol=lf
+*.toml text eol=lf
+*.md text eol=lf
+*.rst text eol=lf
+*.txt text eol=lf
+*.sh text eol=lf
+
+# Binaries — do not diff
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.svg binary
+*.pdf binary
+*.pkl binary
+*.parquet binary
+*.h5 binary
+*.pt binary
+*.pth binary

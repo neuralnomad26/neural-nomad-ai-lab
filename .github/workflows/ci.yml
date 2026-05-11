@@ -1,0 +1,86 @@
+name: CI
+
+on:
+  push:
+    branches: [main, develop]
+  pull_request:
+    branches: [main]
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  lint:
+    name: Lint
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      - name: Install ruff
+        run: pip install ruff
+
+      - name: Run ruff lint
+        run: ruff check .
+
+      - name: Run ruff format check
+        run: ruff format --check .
+
+  validate-notebooks:
+    name: Validate Notebooks
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      - name: Install dependencies
+        run: |
+          pip install --upgrade pip
+          pip install nbformat
+
+      - name: Check notebooks are valid JSON
+        run: |
+          python - <<'EOF'
+          import json, pathlib, sys
+          errors = []
+          for nb in pathlib.Path(".").rglob("*.ipynb"):
+              if ".ipynb_checkpoints" in str(nb):
+                  continue
+              try:
+                  json.loads(nb.read_text())
+              except json.JSONDecodeError as e:
+                  errors.append(f"{nb}: {e}")
+          if errors:
+              print("Invalid notebooks:")
+              for e in errors:
+                  print(f"  {e}")
+              sys.exit(1)
+          print(f"All notebooks are valid JSON ({len(list(pathlib.Path('.').rglob('*.ipynb')))} checked)")
+          EOF
+
+  check-secrets:
+    name: Secret Scan
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Scan for secrets
+        uses: trufflesecurity/trufflehog@main
+        with:
+          path: ./
+          base: ${{ github.event.repository.default_branch }}
+          head: HEAD
+          extra_args: --only-verified
