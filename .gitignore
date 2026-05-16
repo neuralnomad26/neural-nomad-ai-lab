@@ -51,8 +51,10 @@ ipython_config.py
 *.db
 *.sqlite
 *.sqlite3
-# Exception: small sample datasets explicitly included
-!modules/02-eda/datasets/sample_*.csv
+# Exception: small course datasets explicitly included
+!modules/**/datasets/*.csv
+!modules/**/datasets/*.xlsx
+!modules/**/datasets/*.json
 
 # =============================================================================
 # ML model artefacts
