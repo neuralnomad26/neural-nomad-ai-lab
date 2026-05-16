@@ -40,7 +40,7 @@ Every notebook is written with clarity and production discipline: clean code, me
 
 | # | Module | Topics | Status |
 |---|--------|---------|--------|
-| 01 | [NumPy & Pandas](modules/01-numpy-pandas/) | Arrays, vectorized ops, DataFrames, data wrangling | 🟡 In Progress |
+| 01 | [NumPy & Pandas](modules/01-numpy-pandas/) | Arrays, vectorized ops, DataFrames, data wrangling | ✅ Complete |
 | 02 | [Exploratory Data Analysis](modules/02-eda/) | Statistical analysis, visualizations, data quality | ⬜ Upcoming |
 | 03 | [ML Foundations](modules/03-ml-foundations/) | Supervised & unsupervised learning, scikit-learn | ⬜ Upcoming |
 | 04 | [Deep Learning](modules/04-deep-learning/) | Neural networks, PyTorch / Keras fundamentals | ⬜ Upcoming |
@@ -211,7 +211,7 @@ This is primarily a personal learning repository, but corrections and suggestion
 ## 📋 Roadmap
 
 - [x] Repository setup and structure
-- [ ] Complete Module 01 — NumPy & Pandas
+- [x] Complete Module 01 — NumPy & Pandas
 - [ ] Complete Module 02 — EDA
 - [ ] Complete Module 03 — ML Foundations
 - [ ] Complete Module 04 — Deep Learning

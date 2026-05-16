@@ -1,6 +1,6 @@
 # Module 01 — NumPy & Pandas
 
-> **Status:** 🟡 In Progress
+> **Status:** ✅ Complete
 
 The foundation of all data science work in Python. This module builds deep intuition for array-based computation and tabular data manipulation — skills used in every subsequent module.
 
