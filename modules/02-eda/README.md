@@ -1,6 +1,6 @@
 # Module 02 — Exploratory Data Analysis
 
-> **Status:** ⬜ Upcoming
+> **Status:** 🟡 In Progress
 
 Before modelling, understand your data. EDA is not a formality — it is where bad assumptions get caught early, where interesting patterns reveal themselves, and where good feature engineering begins.
 
