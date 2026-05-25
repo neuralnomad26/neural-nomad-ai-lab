@@ -177,7 +177,8 @@ End-to-end projects that apply skills from multiple modules:
 
 | Project | Description | Modules Used | Status |
 |---------|-------------|--------------|--------|
-| *(Coming soon)* | First project will be added after Module 02 | 01, 02 | ⬜ |
+| [Optimising NYC Taxi Operations](projects/01-nyc-taxi-eda/) | End-to-end EDA on 36M+ NYC yellow taxi trips — temporal patterns, pricing dynamics, geospatial analysis, and operational recommendations. Includes a full PDF report. | 01, 02 | ✅ Complete |
+| ML Prediction Pipeline | End-to-end ML pipeline: EDA → feature engineering → model → evaluation | 01–03 | ⬜ Upcoming |
 
 ---
 
@@ -218,7 +219,8 @@ This is primarily a personal learning repository, but corrections and suggestion
 - [ ] Complete Module 05 — NLP
 - [ ] Complete Module 06 — LLM Engineering
 - [ ] Complete Module 07 — Agentic AI
-- [ ] Build 3 end-to-end portfolio projects
+- [x] Build first end-to-end portfolio project (NYC Taxi EDA)
+- [ ] Build 2 more end-to-end portfolio projects
 - [ ] Write a technical blog post for each module
 
 ---

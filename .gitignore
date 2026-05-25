@@ -55,6 +55,10 @@ ipython_config.py
 !modules/**/datasets/*.csv
 !modules/**/datasets/*.xlsx
 !modules/**/datasets/*.json
+# Exception: project datasets (parquet + shapefiles included with projects)
+!projects/**/datasets/*.parquet
+!projects/**/datasets/*.csv
+!projects/**/datasets/taxi_zones/*
 
 # =============================================================================
 # ML model artefacts
