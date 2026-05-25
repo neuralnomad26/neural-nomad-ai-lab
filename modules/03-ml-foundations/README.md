@@ -1,6 +1,6 @@
 # Module 03 — Machine Learning Foundations
 
-> **Status:** ⬜ Upcoming
+> **Status:** 🟡 In Progress
 
 Supervised and unsupervised learning from first principles. This module builds genuine understanding of how algorithms work — not just how to call `model.fit()`.
 
