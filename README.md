@@ -235,7 +235,7 @@ This project is licensed under the MIT License — see [LICENSE](LICENSE) for de
 
 **Neeraj**
 
-> *"The best way to learn AI is to build it — one commit at a time."*
+> *"The best way to learn AI is to build it , one commit at a time and I'm just getting started."*
 
 ---
 
