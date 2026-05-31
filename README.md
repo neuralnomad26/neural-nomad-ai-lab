@@ -32,7 +32,7 @@ This isn't a polished course repo with clean pre-written solutions. It's a worki
 |---|--------|---------|--------|
 | 01 | [NumPy & Pandas](modules/01-numpy-pandas/) | Arrays, vectorized ops, DataFrames, data wrangling | ✅ Complete |
 | 02 | [Exploratory Data Analysis](modules/02-eda/) | Statistical analysis, visualisations, data quality | ✅ Complete |
-| 03 | [ML Foundations](modules/03-ml-foundations/) | Linear Regression, VIF, RFE, model evaluation | 🟡 In Progress |
+| 03 | [ML Foundations](modules/03-ml-foundations/) | Linear & Logistic Regression, VIF, RFE, Ridge & Lasso regularisation, hyperparameter tuning | 🟡 In Progress |
 | 04 | [Deep Learning](modules/04-deep-learning/) | Neural networks, PyTorch / Keras | ⬜ Upcoming |
 | 05 | [NLP](modules/05-nlp/) | Text processing, embeddings, transformers | ⬜ Upcoming |
 | 06 | [LLM Engineering](modules/06-llm-engineering/) | Prompt engineering, RAG, fine-tuning, APIs | ⬜ Upcoming |
