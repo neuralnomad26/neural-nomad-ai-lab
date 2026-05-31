@@ -22,7 +22,7 @@ Supervised and unsupervised learning from first principles. This module builds g
 | Notebook | Topics | Status |
 |----------|--------|--------|
 | `01_linear_regression.ipynb` | OLS from scratch, TSS/RSS/ESS, R², RMSE, MAE, MAPE, residual analysis | ✅ Complete |
-| `02_logistic_regression.ipynb` | Binary & multiclass, decision boundaries | ⬜ Upcoming |
+| `02_logistic_regression.ipynb` | Binary & multiclass, decision boundaries | ✅ Complete |
 | `03_decision_trees.ipynb` | Splits, depth, pruning, feature importance | ⬜ Upcoming |
 | `04_ensemble_methods.ipynb` | Random Forest, Gradient Boosting, XGBoost | ⬜ Upcoming |
 | `05_svm.ipynb` | Margin, kernel trick, SVR | ⬜ Upcoming |
