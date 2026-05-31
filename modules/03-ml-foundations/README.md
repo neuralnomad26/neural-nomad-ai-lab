@@ -10,7 +10,7 @@ Supervised and unsupervised learning from first principles. This module covers t
 
 | Category | Completed | Total |
 |----------|-----------|-------|
-| Learning Notebooks | 2 | 11 |
+| Learning Notebooks | 3 | 11 |
 | Exercises | 1 | 1 |
 | Case Studies | 4 | 4 |
 
@@ -37,7 +37,7 @@ Core learning notebooks covering theory and implementation.
 |----------|--------|--------|
 | `01_linear_regression.ipynb` | OLS from scratch, TSS/RSS/ESS, R², RMSE, MAE, MAPE, residual analysis | ✅ Complete |
 | `02_logistic_regression.ipynb` | Binary classification, sigmoid, log loss, confusion matrix, ROC-AUC — Titanic survival prediction | ✅ Complete |
-| `03_decision_trees.ipynb` | Splits, depth, pruning, feature importance | ⬜ Upcoming |
+| `03_decision_trees.ipynb` | Splits, depth, pruning, GridSearchCV, regression tree, feature importance | ✅ Complete |
 | `04_ensemble_methods.ipynb` | Random Forest, Gradient Boosting, XGBoost | ⬜ Upcoming |
 | `05_svm.ipynb` | Margin, kernel trick, SVR | ⬜ Upcoming |
 | `06_model_evaluation.ipynb` | Accuracy, F1, ROC-AUC, confusion matrix, calibration | ⬜ Upcoming |
@@ -81,6 +81,7 @@ Applied projects on real-world datasets built to consolidate learning across the
 
 | File | Used In | Source |
 |------|---------|--------|
+| `datasets/heart_disease_data.csv` | 03_decision_trees | Synthetic (303 rows, clinical features) |
 | `datasets/Employee_data.csv` | LR_Employee_Retention | upGrad course materials |
 | `datasets/energydata_complete.csv` | LR_Energy_Usage_Prediction | UCI ML Repository - Appliances energy prediction (Candanedo et al., 2017) |
 | `datasets/Car_Price_data.csv` | Regularisation_Car_Price_Prediction | AutoScout - German online used car trading platform |
