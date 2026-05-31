@@ -61,6 +61,7 @@ Hands-on implementations to reinforce notebook concepts.
 | File | Description | Status |
 |------|-------------|--------|
 | `02_linear_regression_cars.ipynb` | Car price prediction using linear regression from scratch with 4 features | ✅ Complete |
+| `Decision_Trees_Ensembles_Bank_Note_Authenticity.ipynb` | Bank note forgery detection — Decision Tree, Random Forest, AdaBoost, GridSearchCV tuning, ROC curve comparison | ✅ Complete |
 
 ---
 
@@ -82,6 +83,7 @@ Applied projects on real-world datasets built to consolidate learning across the
 | File | Used In | Source |
 |------|---------|--------|
 | `datasets/heart_disease_data.csv` | 03_decision_trees | Synthetic (303 rows, clinical features) |
+| `datasets/bank_note_authenticity.csv` | Decision_Trees_Ensembles exercise | UCI Bank Note Authentication (1,372 rows) |
 | `datasets/Employee_data.csv` | LR_Employee_Retention | upGrad course materials |
 | `datasets/energydata_complete.csv` | LR_Energy_Usage_Prediction | UCI ML Repository - Appliances energy prediction (Candanedo et al., 2017) |
 | `datasets/Car_Price_data.csv` | Regularisation_Car_Price_Prediction | AutoScout - German online used car trading platform |
