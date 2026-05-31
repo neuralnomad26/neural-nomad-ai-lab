@@ -47,6 +47,7 @@ Supervised and unsupervised learning from first principles. This module builds g
 |------|-------------|--------|
 | `LR_Paddy_Yield_Prediction.ipynb` | Paddy crop yield prediction. Full pipeline with VIF + RFE | ✅ Complete |
 | `LR_Energy_Usage_Prediction.ipynb` | Smart home energy consumption prediction. Feature engineering from timestamps, correlation-based reduction of 18 temp/humidity sensors, statsmodels OLS, RFE to 8 features | ✅ Complete |
+| `LR_Employee_Retention.ipynb` | Employee attrition prediction. MinMaxScaler, RFE to 15 features, iterative VIF reduction, statsmodels p-value check, optimal cutoff via ROC + precision-recall | ✅ Complete |
 
 ---
 
