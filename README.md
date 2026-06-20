@@ -32,8 +32,8 @@ This isn't a polished course repo with clean pre-written solutions. It's a worki
 |---|--------|---------|--------|
 | 01 | [NumPy & Pandas](modules/01-numpy-pandas/) | Arrays, vectorized ops, DataFrames, data wrangling | ✅ Complete |
 | 02 | [Exploratory Data Analysis](modules/02-eda/) | Statistical analysis, visualisations, data quality | ✅ Complete |
-| 03 | [ML Foundations](modules/03-ml-foundations/) | Linear & Logistic Regression, VIF, RFE, Ridge & Lasso regularisation, hyperparameter tuning | 🟡 In Progress |
-| 04 | [Deep Learning](modules/04-deep-learning/) | Neural networks, PyTorch / Keras | ⬜ Upcoming |
+| 03 | [ML Foundations](modules/03-ml-foundations/) | Linear & Logistic Regression, VIF, RFE, Ridge & Lasso regularisation, hyperparameter tuning, K-Means Clustering | ✅ Complete |
+| 04 | [Deep Learning](modules/04-deep-learning/) | Feedforward Neural Networks, House Price Regression, MNIST Digit Classification, Credit Card Fraud Detection (imbalanced classification, AUC-ROC, threshold tuning) | 🟡 In Progress |
 | 05 | [NLP](modules/05-nlp/) | Text processing, embeddings, transformers | ⬜ Upcoming |
 | 06 | [LLM Engineering](modules/06-llm-engineering/) | Prompt engineering, RAG, fine-tuning, APIs | ⬜ Upcoming |
 | 07 | [Agentic AI](modules/07-agentic-ai/) | LangChain, LangGraph, CrewAI, AutoGen | ⬜ Upcoming |
@@ -114,8 +114,8 @@ jupyter lab
 - [x] Module 01 - NumPy & Pandas
 - [x] Module 02 - EDA
 - [x] Project 01 - NYC Taxi EDA
-- [ ] Module 03 - ML Foundations
-- [ ] Module 04 - Deep Learning
+- [x] Module 03 - ML Foundations
+- [ ] Module 04 - Deep Learning (in progress)
 - [ ] Module 05 - NLP
 - [ ] Module 06 - LLM Engineering
 - [ ] Module 07 - Agentic AI
