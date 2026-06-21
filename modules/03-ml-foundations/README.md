@@ -1,6 +1,6 @@
 # Module 03 - Machine Learning Foundations
 
-> **Status:** 🟡 In Progress &nbsp;|&nbsp; **Track:** Agentic AI Certification
+> **Status:** ✅ Complete &nbsp;|&nbsp; **Track:** Agentic AI Certification
 
 Supervised and unsupervised learning from first principles. This module covers the full ML workflow, from raw data to production-ready models, with a focus on building genuine understanding rather than just calling library functions.
 
@@ -10,8 +10,8 @@ Supervised and unsupervised learning from first principles. This module covers t
 
 | Category | Completed | Total |
 |----------|-----------|-------|
-| Learning Notebooks | 3 | 11 |
-| Exercises | 1 | 1 |
+| Learning Notebooks | 4 | 4 |
+| Exercises | 2 | 2 |
 | Case Studies | 4 | 4 |
 
 ---
@@ -36,21 +36,14 @@ Core learning notebooks covering theory and implementation.
 | Notebook | Topics | Status |
 |----------|--------|--------|
 | `01_linear_regression.ipynb` | OLS from scratch, TSS/RSS/ESS, R², RMSE, MAE, MAPE, residual analysis | ✅ Complete |
-| `02_logistic_regression.ipynb` | Binary classification, sigmoid, log loss, confusion matrix, ROC-AUC — Titanic survival prediction | ✅ Complete |
+| `02_logistic_regression.ipynb` | Binary classification, sigmoid, log loss, confusion matrix, ROC-AUC, Titanic survival prediction | ✅ Complete |
 | `03_decision_trees.ipynb` | Splits, depth, pruning, GridSearchCV, regression tree, feature importance | ✅ Complete |
-| `04_ensemble_methods.ipynb` | Random Forest, Gradient Boosting, XGBoost | ⬜ Upcoming |
-| `05_svm.ipynb` | Margin, kernel trick, SVR | ⬜ Upcoming |
-| `06_model_evaluation.ipynb` | Accuracy, F1, ROC-AUC, confusion matrix, calibration | ⬜ Upcoming |
-| `07_pipelines_and_tuning.ipynb` | sklearn Pipeline, GridSearchCV, cross-validation | ⬜ Upcoming |
 
 ### Unsupervised Learning
 
 | Notebook | Topics | Status |
 |----------|--------|--------|
-| `08_kmeans_clustering.ipynb` | Inertia, elbow method, silhouette score | ⬜ Upcoming |
-| `09_hierarchical_clustering.ipynb` | Dendrograms, linkage methods | ⬜ Upcoming |
-| `10_pca.ipynb` | Variance explained, scree plots, reconstruction | ⬜ Upcoming |
-| `11_tsne_umap.ipynb` | High-dimensional visualisation | ⬜ Upcoming |
+| `04_kmeans_clustering.ipynb` | Inertia, elbow method, silhouette score, census data segmentation | ✅ Complete |
 
 ---
 
@@ -61,7 +54,7 @@ Hands-on implementations to reinforce notebook concepts.
 | File | Description | Status |
 |------|-------------|--------|
 | `02_linear_regression_cars.ipynb` | Car price prediction using linear regression from scratch with 4 features | ✅ Complete |
-| `Decision_Trees_Ensembles_Bank_Note_Authenticity.ipynb` | Bank note forgery detection — Decision Tree, Random Forest, AdaBoost, GridSearchCV tuning, ROC curve comparison | ✅ Complete |
+| `Decision_Trees_Ensembles_Bank_Note_Authenticity.ipynb` | Bank note forgery detection, Decision Tree, Random Forest, AdaBoost, GridSearchCV tuning, ROC curve comparison | ✅ Complete |
 
 ---
 
@@ -87,13 +80,16 @@ Applied projects on real-world datasets built to consolidate learning across the
 | `datasets/Employee_data.csv` | LR_Employee_Retention | upGrad course materials |
 | `datasets/energydata_complete.csv` | LR_Energy_Usage_Prediction | UCI ML Repository - Appliances energy prediction (Candanedo et al., 2017) |
 | `datasets/Car_Price_data.csv` | Regularisation_Car_Price_Prediction | AutoScout - German online used car trading platform |
+| `datasets/kmeans_census_data.csv` | 04_kmeans_clustering | Census demographic data |
 
 ---
 
-## Key Concepts Covered So Far
+## Key Concepts Covered
 
 - **OLS Linear Regression** - closed-form solution, coefficient interpretation, R² decomposition
 - **Logistic Regression** - sigmoid function, log loss, binary classification
+- **Decision Trees** - splits, depth control, pruning, GridSearchCV tuning
+- **K-Means Clustering** - inertia, elbow method, silhouette score
 - **Feature Selection** - VIF for multicollinearity, RFE for recursive elimination
 - **Model Evaluation** - confusion matrix, precision, recall, F1, ROC-AUC, optimal cutoff
 - **Regularisation** - Ridge (L2) and Lasso (L1), alpha tuning, coefficient shrinkage
