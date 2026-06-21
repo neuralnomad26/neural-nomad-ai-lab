@@ -31,9 +31,9 @@ This isn't a polished course repo with clean pre-written solutions. It's a worki
 | # | Module | Topics | Status |
 |---|--------|---------|--------|
 | 01 | [NumPy & Pandas](modules/01-numpy-pandas/) | Arrays, vectorized ops, DataFrames, data wrangling | ✅ Complete |
-| 02 | [Exploratory Data Analysis](modules/02-eda/) | Statistical analysis, visualisations, data quality | ✅ Complete |
-| 03 | [ML Foundations](modules/03-ml-foundations/) | Linear & Logistic Regression, VIF, RFE, Ridge & Lasso regularisation, hyperparameter tuning, K-Means Clustering | ✅ Complete |
-| 04 | [Deep Learning](modules/04-deep-learning/) | Feedforward Neural Networks, House Price Regression, MNIST Digit Classification, Credit Card Fraud Detection (imbalanced classification, AUC-ROC, threshold tuning) | 🟡 In Progress |
+| 02 | [Exploratory Data Analysis](modules/02-eda/) | Data preprocessing, feature engineering, statistical visualisations, EDA on Bank Telemarketing and Telecom Churn datasets | ✅ Complete |
+| 03 | [ML Foundations](modules/03-ml-foundations/) | Linear Regression, Logistic Regression, Decision Trees, Ridge and Lasso regularisation, K-Means Clustering. Case studies: Employee Retention, Energy Usage Prediction, Paddy Yield, Car Price Prediction | ✅ Complete |
+| 04 | [Deep Learning](modules/04-deep-learning/) | Feedforward Neural Networks, House Price Regression, MNIST Digit Classification, Credit Card Fraud Detection (imbalanced classification, AUC-ROC, threshold tuning), Chest X-Ray Pneumonia Detection (CNN), Brain Tumour MRI Classification (EfficientNetB0, Grad-CAM, TTA) | 🟡 In Progress |
 | 05 | [NLP](modules/05-nlp/) | Text processing, embeddings, transformers | ⬜ Upcoming |
 | 06 | [LLM Engineering](modules/06-llm-engineering/) | Prompt engineering, RAG, fine-tuning, APIs | ⬜ Upcoming |
 | 07 | [Agentic AI](modules/07-agentic-ai/) | LangChain, LangGraph, CrewAI, AutoGen | ⬜ Upcoming |
@@ -47,7 +47,7 @@ Full end-to-end projects that go beyond the module exercises.
 | Project | Description | Status |
 |---------|-------------|--------|
 | [Optimising NYC Taxi Operations](projects/01-nyc-taxi-eda/) | EDA on 36M+ NYC yellow taxi trips (2023). Covers temporal demand patterns, pricing analysis, geospatial visualisation, and operational recommendations. Includes a full PDF report. | ✅ Complete |
-| ML Prediction Pipeline | End-to-end ML pipeline on a real dataset. EDA through model evaluation. | ⬜ Upcoming |
+| [Brain Tumour MRI Classification](modules/04-deep-learning/projects/brain-tumor-mri-classification/) | End-to-end CNN pipeline classifying brain MRI scans into 4 tumour types. EfficientNetB0 transfer learning, Grad-CAM explainability, and Test Time Augmentation. 93.4% validation accuracy. | 🟡 In Progress |
 
 ---
 
