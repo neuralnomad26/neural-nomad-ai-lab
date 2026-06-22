@@ -1,32 +1,66 @@
 # Module 04 — Deep Learning
 
-> **Status:** ⬜ Upcoming
+> **Status:** 🟡 In Progress &nbsp;|&nbsp; **Track:** Agentic AI Certification
 
-Neural networks from the ground up. Backpropagation by hand, then PyTorch for everything else.
-
----
-
-## Learning Objectives
-
-- Understand forward and backward propagation mathematically
-- Build and train neural networks in PyTorch
-- Apply CNNs for image tasks and RNNs/LSTMs for sequences
-- Use transfer learning to solve real problems with limited data
-- Debug training: vanishing gradients, overfitting, learning rate issues
+Neural networks from the ground up. Feedforward networks, CNNs for images, LSTMs for sequences, and transfer learning for real-world problems.
 
 ---
 
-## Topics Covered
+## Structure
 
-| Notebook | Topics |
-|----------|--------|
-| `01_perceptron_and_backprop.ipynb` | Neurons, activations, backprop from scratch |
-| `02_pytorch_fundamentals.ipynb` | Tensors, autograd, device management |
-| `03_mlp_classification.ipynb` | Fully connected networks, training loops |
-| `04_cnn_image_classification.ipynb` | Conv layers, pooling, classic architectures |
-| `05_transfer_learning.ipynb` | Fine-tuning ResNet / EfficientNet |
-| `06_rnn_and_lstm.ipynb` | Sequence modelling, BPTT |
-| `07_training_techniques.ipynb` | Batch norm, dropout, schedulers, early stopping |
+```
+04-deep-learning/
+├── notebooks/       ← concept-first, standard datasets, learning exercises
+├── case-studies/    ← applied problems on real-world domains, single notebook
+└── projects/        ← full end-to-end pipelines, portfolio-worthy
+```
+
+---
+
+## Notebooks
+
+Core learning notebooks covering theory and implementation.
+
+| Notebook | Architecture | Topics |
+|----------|-------------|--------|
+| `01_house_price_neural_network.ipynb` | FFNN | Regression, normalisation, MAE, MSE |
+| `02_mnist_digit_classification.ipynb` | FFNN | Multi-class classification, softmax, dropout |
+| `03_fashion_mnist_architecture_comparison.ipynb` | FCFNN vs CNN vs RCNN | Architecture tradeoffs, parameter efficiency |
+| `04_lstm_sentiment_analysis_imdb.ipynb` | Bidirectional LSTM | Sequence modelling, word embeddings, NLP basics |
+
+---
+
+## Case Studies
+
+Applied projects on real-world datasets — single notebook, end-to-end pipeline.
+
+| Notebook | Domain | Architecture | Key Techniques |
+|----------|--------|-------------|----------------|
+| `credit_card_fraud_detection_FFNN.ipynb` | Finance | FFNN | Class imbalance, AUC-ROC, threshold tuning |
+| `chest_xray_pneumonia_detection_CNN.ipynb` | Medical Imaging | CNN | Binary image classification, data augmentation |
+
+---
+
+## Projects
+
+Full end-to-end projects built to portfolio standard.
+
+| Project | Domain | Architecture | Key Results |
+|---------|--------|-------------|-------------|
+| [Brain Tumour MRI Classification](projects/brain-tumor-mri-classification/) | Medical Imaging | EfficientNetB0 | 93.4% val accuracy, Grad-CAM explainability, TTA |
+| [Aircraft Engine Failure Prediction](projects/aircraft-engine-failure-prediction/) | Predictive Maintenance | Stacked LSTM | 96% recall and precision, NASA CMAPSS dataset |
+
+---
+
+## Key Concepts Covered
+
+- **Feedforward Networks** - layers, activations, backpropagation, weight initialisation
+- **Convolutional Neural Networks** - filters, feature maps, pooling, receptive field
+- **Transfer Learning** - frozen base + custom head, EfficientNetB0
+- **Recurrent Networks** - LSTM gates, return_sequences, stacked LSTMs
+- **Explainability** - Grad-CAM for CNN visualisation
+- **Training Techniques** - dropout, batch normalisation, EarlyStopping, MinMaxScaler
+- **Class Imbalance** - AUC-ROC, threshold tuning, class weights
 
 ---
 
