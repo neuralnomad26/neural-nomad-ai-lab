@@ -49,6 +49,7 @@ Full end-to-end projects built to portfolio standard.
 |---------|--------|-------------|-------------|
 | [Brain Tumour MRI Classification](projects/brain-tumor-mri-classification/) | Medical Imaging | EfficientNetB0 | 93.4% val accuracy, Grad-CAM explainability, TTA |
 | [Aircraft Engine Failure Prediction](projects/aircraft-engine-failure-prediction/) | Predictive Maintenance | Stacked LSTM | 96% recall and precision, NASA CMAPSS dataset |
+| [Waste Material Segregation](projects/waste-segregation-cnn/) | Waste Management | CNN (from scratch) | 72% test accuracy, macro-F1 0.72, 7-class, class weighting |
 
 ---
 
