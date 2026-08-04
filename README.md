@@ -47,6 +47,7 @@ Full end-to-end projects that go beyond the module exercises.
 | Project | Description | Status |
 |---------|-------------|--------|
 | [Optimising NYC Taxi Operations](projects/01-nyc-taxi-eda/) | EDA on 36M+ NYC yellow taxi trips (2023). Covers temporal demand patterns, pricing analysis, geospatial visualisation, and operational recommendations. Includes a full PDF report. | ✅ Complete |
+| [Predictive Maintenance MLOps Pipeline](projects/02-predictive-maintenance-mlops/) | Full MLOps loop on industrial IoT sensor data. Pandera schema validation, MLflow tracking and model registry, Optuna tuning, Evidently drift detection, and per-class SHAP explainability driving a retraining decision. | ✅ Complete |
 | [Brain Tumour MRI Classification](modules/04-deep-learning/projects/brain-tumor-mri-classification/) | End-to-end CNN pipeline classifying brain MRI scans into 4 tumour types. EfficientNetB0 transfer learning, Grad-CAM explainability, and Test Time Augmentation. 93.4% validation accuracy. | 🟡 In Progress |
 
 ---
@@ -75,7 +76,8 @@ neural-nomad-ai-lab/
 │   └── ...
 │
 ├── projects/
-│   └── 01-nyc-taxi-eda/
+│   ├── 01-nyc-taxi-eda/
+│   └── 02-predictive-maintenance-mlops/
 │
 └── README.md
 ```

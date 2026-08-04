@@ -59,6 +59,8 @@ ipython_config.py
 !projects/**/datasets/*.parquet
 !projects/**/datasets/*.csv
 !projects/**/datasets/taxi_zones/*
+# Exception: notebooks that read from data/ rather than datasets/
+!projects/**/data/*.csv
 
 # =============================================================================
 # ML model artefacts
