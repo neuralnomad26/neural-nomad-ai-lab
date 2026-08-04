@@ -91,7 +91,8 @@ neural-nomad-ai-lab/
 | Core | Python 3.11, Jupyter Lab |
 | Data | NumPy, Pandas |
 | Visualisation | Matplotlib, Seaborn, Plotly |
-| ML | scikit-learn, statsmodels, XGBoost |
+| ML | scikit-learn, statsmodels, XGBoost, LightGBM, imbalanced-learn |
+| MLOps | MLflow, Optuna, Evidently, SHAP, Pandera |
 | Deep Learning | PyTorch, Keras |
 | NLP / LLMs | HuggingFace Transformers, OpenAI SDK, Anthropic SDK |
 | Agents | LangChain, LangGraph, CrewAI, AutoGen |
@@ -117,6 +118,7 @@ jupyter lab
 - [x] Module 02 - EDA
 - [x] Project 01 - NYC Taxi EDA
 - [x] Module 03 - ML Foundations
+- [x] Project 02 - Predictive Maintenance MLOps Pipeline
 - [ ] Module 04 - Deep Learning (in progress)
 - [ ] Module 05 - NLP
 - [ ] Module 06 - LLM Engineering
